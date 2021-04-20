@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Shakurov\\Coinbase\\": "src/"
+            "AlexisRiot\\Coinbase\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shakurov\\Coinbase\\Tests\\": "tests/"
+            "AlexisRiot\\Coinbase\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -42,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shakurov\\Coinbase\\CoinbaseServiceProvider"
+                "AlexisRiot\\Coinbase\\CoinbaseServiceProvider"
             ],
             "aliases": {
-                "Coinbase": "Shakurov\\Coinbase\\Facades\\Coinbase"
+                "Coinbase": "AlexisRiot\\Coinbase\\Facades\\Coinbase"
             }
         }
     }
