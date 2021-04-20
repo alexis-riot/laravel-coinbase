@@ -1,9 +1,9 @@
 <?php
 
-namespace Shakurov\Coinbase\Http\Middleware;
+namespace AlexisRiot\Coinbase\Http\Middleware;
 
 use Closure;
-use Shakurov\Coinbase\Exceptions\WebhookFailed;
+use AlexisRiot\Coinbase\Exceptions\WebhookFailed;
 
 class VerifySignature
 {

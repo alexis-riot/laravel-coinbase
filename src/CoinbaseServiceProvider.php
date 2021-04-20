@@ -1,6 +1,6 @@
 <?php
 
-namespace Shakurov\Coinbase;
+namespace AlexisRiot\Coinbase;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

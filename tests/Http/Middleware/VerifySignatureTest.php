@@ -1,10 +1,10 @@
 <?php
 
-namespace Shakurov\Coinbase\Tests\Http\Middleware;
+namespace AlexisRiot\Coinbase\Tests\Http\Middleware;
 
 use Illuminate\Support\Facades\Route;
-use Shakurov\Coinbase\Tests\TestCase;
-use Shakurov\Coinbase\Http\Middleware\VerifySignature;
+use AlexisRiot\Coinbase\Tests\TestCase;
+use AlexisRiot\Coinbase\Http\Middleware\VerifySignature;
 
 class VerifySignatureTest extends TestCase
 {

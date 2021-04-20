@@ -1,9 +1,9 @@
 <?php
 
-namespace Shakurov\Coinbase\Tests;
+namespace AlexisRiot\Coinbase\Tests;
 
-use Shakurov\Coinbase\Facades\Coinbase;
-use Shakurov\Coinbase\CoinbaseServiceProvider;
+use AlexisRiot\Coinbase\Facades\Coinbase;
+use AlexisRiot\Coinbase\CoinbaseServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase

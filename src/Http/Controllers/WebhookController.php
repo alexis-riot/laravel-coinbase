@@ -1,11 +1,11 @@
 <?php
 
-namespace Shakurov\Coinbase\Http\Controllers;
+namespace AlexisRiot\Coinbase\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Shakurov\Coinbase\Http\Middleware\VerifySignature;
+use AlexisRiot\Coinbase\Http\Middleware\VerifySignature;
 
 class WebhookController extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Shakurov\Coinbase\Exceptions;
+namespace AlexisRiot\Coinbase\Exceptions;
 
 use Exception;
 use Illuminate\Http\Request;
-use Shakurov\Coinbase\Models\CoinbaseWebhookCall;
+use AlexisRiot\Coinbase\Models\CoinbaseWebhookCall;
 
 class WebhookFailed extends Exception
 {
